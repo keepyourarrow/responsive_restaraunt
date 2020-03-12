@@ -195,7 +195,7 @@ header {
 
 .modal-img {
   max-width: 900px;
-  height: auto;
+  height: 50vh;
   max-height: 1100px;
   margin-top: -1.2rem;
   margin-bottom: -1.3rem;
@@ -547,7 +547,10 @@ input:focus {
     font-size: 1rem;
   }
   .modal-img {
-    max-height: 250px;
+    max-height: 20vh;
+  }
+  .modal {
+    max-height: 80vh;
   }
   input[type="button"],
   .button-submitted {

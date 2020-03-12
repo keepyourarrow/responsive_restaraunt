@@ -499,7 +499,7 @@ input:focus {
     font-size: 1.6rem !important;
   }
   h1 {
-    font-size: 5rem !important;
+    font-size: 2.2rem !important;
   }
   .item-link {
     font-size: 2rem !important;
@@ -535,8 +535,12 @@ input:focus {
   }
 }
 @media only screen and (max-width: 450px) {
+  .container {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
   h1 {
-    font-size: 4rem !important;
+    font-size: 2.2rem !important;
   }
   .modal-text h3,
   .modal-text p {
@@ -551,5 +555,8 @@ input:focus {
   }
   .code {
     width: 40%;
+  }
+  .navbar-brand {
+    font-size: 1.2rem !important;
   }
 }

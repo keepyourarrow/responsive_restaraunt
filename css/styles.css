@@ -200,6 +200,7 @@ header {
   margin-top: -1.2rem;
   margin-bottom: -1.3rem;
   margin-left: -1.3rem;
+  object-fit:cover;
 }
 .modal-exit {
   position: absolute;
@@ -508,7 +509,6 @@ input:focus {
     margin: 0 auto;
     max-height: 450px;
     padding-top: 7px;
-    object-fit:cover;
   }
   .modal-text h3 {
     font-size: 1.5rem;
